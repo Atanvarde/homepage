@@ -1,0 +1,55 @@
+
+
+body {
+    background: #F1F4FD;
+}
+
+.mainHeader {
+    color: #0E225B;
+    font-size: 40px;
+}
+
+.aboutMeInfo {
+    color: #0E225B;
+}
+
+.aboutMeHeader {
+    color: #790629;
+    font-size: 20px;
+}
+
+.diaryHeader {
+    color: #790629;
+    font-size: 35px;
+}
+
+.pamietniczek {
+    background: #DCD234;
+}
+
+.daysSectionHeader {
+    color: #790629;
+}
+
+span {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #0E225B;
+}
+
+a:hover {
+    color: #DCD234;
+}
+
+.aboutDaysInfo {
+    color:#0E225B;
+}
+.footer {
+    color: #0E225B;
+}
