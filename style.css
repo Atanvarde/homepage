@@ -12,6 +12,7 @@ body {
 .aboutMeInfo {
     color: #0E225B;
     padding: 16px;
+    border: 3px solid #FF5A5F;
 }
 
 .aboutMeSection {
@@ -38,7 +39,7 @@ span {
 
 a {
     text-decoration: none;
-    color: tomato;
+    color: #FF5A5F;
 }
 
 a:visited {
@@ -52,6 +53,11 @@ a:hover {
 .aboutDaysInfo {
     color:#0E225B;
     padding: 0 0 10px 16px;
+}
+
+.article {
+    width: 100%;
+    max-width: 1000px;
 }
 .footer {
     color: #0E225B;
