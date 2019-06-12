@@ -20,11 +20,6 @@ body {
 
 .diaryHeader {
     color: #790629;
-    font-size: 35px;
-}
-
-.pamietniczek {
-    background: #DCD234;
 }
 
 .daysSectionHeader {
@@ -37,14 +32,15 @@ span {
 
 a {
     text-decoration: none;
+    color: tomato;
 }
 
 a:visited {
-    color: #0E225B;
+    color: #FF5A5F;
 }
 
 a:hover {
-    color: #DCD234;
+    color:#0E225B;
 }
 
 .aboutDaysInfo {
