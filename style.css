@@ -1,7 +1,22 @@
-
-
 body {
     background: #F1F4FD;
+}
+
+.navigationHeader {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 16px;
+    background: #fff;
+}
+
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 30px auto;
+    padding-top: 50px;
 }
 
 .mainHeader {
@@ -12,12 +27,8 @@ body {
 .aboutMeInfo {
     color: #0E225B;
     padding: 16px;
-    border: 3px solid #FF5A5F;
-}
-
-.aboutMeSection {
-    width:100%;
-    max-width: 700px;
+    border-top: 3px dotted #DB2B39;
+    border-bottom: 3px dotted #DB2B39;
 }
 
 .aboutMeHeader {
@@ -39,26 +50,34 @@ span {
 
 a {
     text-decoration: none;
-    color: #FF5A5F;
+    color: #DB2B39;
 }
 
 a:visited {
-    color: #FF5A5F;
+    color: #DB2B39;
 }
 
 a:hover {
-    color:#0E225B;
+    color: #0E225B;
 }
 
 .aboutDaysInfo {
-    color:#0E225B;
-    padding: 0 0 10px 16px;
+    color: #0E225B;
+    padding: 10px 16px 10px 16px;
+    border: 3px solid #F3A712;
 }
 
 .article {
     width: 100%;
     max-width: 1000px;
 }
+
 .footer {
     color: #0E225B;
+}
+
+.top {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
 }
