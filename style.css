@@ -2,7 +2,7 @@ body {
     background: #F1F4FD;
 }
 
-.navigationHeader {
+.navigation {
     position: fixed;
     width: 100%;
     top: 0;
@@ -24,20 +24,20 @@ body {
     font-size: 40px;
 }
 
-.aboutMeInfo {
+.about__paragraph {
     color: #0E225B;
     padding: 16px;
     border-top: 3px dotted #DB2B39;
     border-bottom: 3px dotted #DB2B39;
 }
 
-.girl {
+.about__picture {
     width: 100%;
     max-width: 700px;
     display: block;
 }
 
-.aboutMeHeader {
+.about__header {
     color: #790629;
     font-size: 20px;
 }
@@ -54,7 +54,7 @@ span {
     font-weight: bold;
 }
 
-a {
+.navigation__link, .about__link {
     text-decoration: none;
     color: #DB2B39;
 }
@@ -86,4 +86,6 @@ a:hover {
     position: fixed;
     bottom: 0;
     right: 10px;
+    text-decoration: none;
+    color: #DB2B39;
 }
