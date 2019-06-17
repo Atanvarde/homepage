@@ -19,19 +19,20 @@ body {
     padding-top: 50px;
 }
 
-.mainHeader {
+.header__header {
     color: #0E225B;
     font-size: 40px;
 }
+
+.about {}
 
 .about__paragraph {
     color: #0E225B;
     padding: 16px;
     border-top: 3px dotted #DB2B39;
-    border-bottom: 3px dotted #DB2B39;
 }
 
-.about__picture {
+.about__picture, .article__picture {
     width: 100%;
     max-width: 700px;
     display: block;
@@ -42,11 +43,15 @@ body {
     font-size: 20px;
 }
 
-.diaryHeader {
+.diary {}
+
+.diary__header {
     color: #790629;
 }
 
-.daysSectionHeader {
+.days {}
+
+.days__header, .article__header {
     color: #790629;
 }
 
@@ -54,7 +59,7 @@ span {
     font-weight: bold;
 }
 
-.navigation__link, .about__link {
+.navigation__link, .about__link, .days__link, .footer__link, .article__link {
     text-decoration: none;
     color: #DB2B39;
 }
@@ -67,25 +72,25 @@ a:hover {
     color: #0E225B;
 }
 
-.aboutDaysInfo {
+.article {
+    width: 100%;
+    max-width: 700px;
+}
+.article__paragraph {
     color: #0E225B;
     padding: 10px 16px 10px 16px;
     border: 3px solid #F3A712;
 }
 
-.article {
-    width: 100%;
-    max-width: 1000px;
-}
+.article__figure {}
 
-.footer {
+
+.footer__paragraph {
     color: #0E225B;
 }
 
-.top {
+.footer__link--top {
     position: fixed;
     bottom: 0;
     right: 10px;
-    text-decoration: none;
-    color: #DB2B39;
 }
