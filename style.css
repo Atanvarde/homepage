@@ -2,7 +2,7 @@ body {
     background: #F1F4FD;
 }
 
-.navigation {
+.site-header {
     background: #fff;
     box-sizing: border-box;
     left: 0;
@@ -63,6 +63,17 @@ body {
 
 span {
     font-weight: bold;
+}
+
+.navigation {}
+
+.navigation__item {
+    display: inline;
+}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
 }
 
 .navigation__link, .about__link, .days__link, .footer__link, .article__link {
