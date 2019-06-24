@@ -49,6 +49,7 @@ body {
 }
 
 .about__picture, .article__picture {
+    border-radius: 5px;
     display: block;
     max-width: 700px;
     width: 100%;
@@ -93,6 +94,10 @@ span {
     padding: 5px;
 }
 
+.navigation__link:hover {
+    color: #fff;
+}
+
 .navigation__list {
     list-style: none;
     padding: 0;
@@ -105,10 +110,6 @@ span {
 
 a:visited {
     color: #0E225B;
-}
-
-.navigation__link:hover {
-    color: #fff;
 }
 
 .about__link:hover {
@@ -161,13 +162,14 @@ a:visited {
 
 .footer__paragraph {
     color: #0E225B;
+    width: 700px;
 }
 
 .footer__link--top {
     bottom: 15px;
     position: fixed;
     right: 15px;
-    padding:5px;
+    padding: 5px;
 }
 
 .footer__link:hover {
