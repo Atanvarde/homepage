@@ -225,6 +225,22 @@ a:visited {
         margin: 20px auto;
         max-width: 500px;
     }
+    .navigation__item {
+        padding: 16px;
+    }
+    .navigation__list {
+        flex-direction: column;
+        display: none;
+    }
+    .navigation__list--visible {
+        display: flex;
+    }
+}
+
+@media(min-width: 641px) {
+    .navigation__switcher {
+        display: none;
+    }
 }
 
 @media (max-width: 360px) {
