@@ -95,7 +95,6 @@ span {
 .navigation__item {
     display: block;
     margin: 0 16px;
-    font-weight: 600;
 }
 
 .navigation__link:hover {
@@ -109,7 +108,12 @@ span {
     padding: 0;
 }
 
-.navigation__link, .about__link, .days__link, .footer__link, .article__link {
+.navigation__link {
+    color: #0E225B;
+    text-decoration: none;
+}
+
+.about__link, .days__link, .footer__link, .article__link {
     color: #0E225B;
     font-weight: 600;
     text-decoration: none;
@@ -170,7 +174,6 @@ a:visited {
 .footer__paragraph {
     color: #0E225B;
     width: 700px;
-    font-weight: 600;
 }
 
 .footer__link--top {
