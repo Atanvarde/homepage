@@ -197,3 +197,51 @@ a:visited {
     grid-column-gap: 16px;
     grid-row-gap: 16px;
 }
+
+@media(max-width:800px) {
+    .header__title {
+        font-size: 30px;
+    }
+    .main {
+        margin: 30px auto;
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 640px) {
+    .diary__grid {
+        grid-template-columns: 1fr;
+    }
+    .header__title {
+        font-size: 25px;
+    }
+    .about__header, .diary__header, .days__header {
+        font-size: 16px;
+    }
+    body {
+        font-size: 13px;
+    }
+    .main {
+        margin: 20px auto;
+        max-width: 500px;
+    }
+}
+
+@media (max-width: 360px) {
+    .header__title {
+        font-size: 16px;
+    }
+    .main {
+        margin: 35px auto;
+        max-width: 300px;
+    }
+    .footer {
+        padding: 0;
+    }
+    .footer__link--top {
+        bottom: 6px;
+        position: fixed;
+        right: 0px;
+        padding: 5px;
+    }
+}
