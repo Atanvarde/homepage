@@ -12,8 +12,7 @@
 </head>
 
 <body>
-
-    <header class="site-header">
+    <header class="site__header">
         <nav class="navigation">
             <ul class="navigation__list">
                 <li class="navigation__item">
@@ -50,10 +49,11 @@
             </h2>
             <p class="about__paragraph">
                 Cześć! Zapragnęłam robić w życiu coś zupełnie innego niż dotychczas i oto jestem, codziennie uczę się
-                frontendu, a <b>każdy dzień</b> programowania przybliża mnie do osiągnięcia <strong>celu</strong>, jakim
+                frontendu, a <b>każdy dzień</b> programowania zbliża mnie do osiągnięcia <strong>celu</strong>, jakim
                 jest - znalezienie
                 nowej, fajnej pracy jako <i>junior frontend developer</i>. Po co mi kurs WTF?
-                Każdego dnia utrwalam zdobytą na poprzednim kursie wiedzę, weryfikuję ją, ale przede wszystkim uczę się
+                Dzięki niemu utrwalam zdobytą na poprzednim kursie wiedzę, dodatkowo ją weryfikuję, ale przede wszystkim
+                uczę się
                 nowych rzeczy.<br>
             </p>
             <p class="about__paragraph about__paragraph--js">
@@ -66,33 +66,51 @@
             <h2 class="diary__header">
                 Pamiętniczek
             </h2>
-            <section class="days">
-                <h3 class="days__header">Dzień 1</h3>
-                <a class="days__link" href="podstrona1.html">O czym jest ten dzień ?</a>
-            </section>
-            <section class="days">
-                <h3 class="days__header">Dzień 2</h3>
-                <a class="days__link" href="podstrona2.html">O czym jest ten dzień?</a>
-            </section>
-            <section class="days">
-                <h3 class="days__header">Dzień 3</h3>
-                <a class="days__link" href="podstrona3.html">O czym jest ten dzień?</a>
-            </section>
-            <section class="days">
-                <h3 class="days__header">Dzień 4</h3>
-                <a class="days__link" href="podstrona4.html">O czym jest ten dzień?</a>
-            </section>
-            <section class="days">
-                <h3 class="days__header">Dzień 5</h3>
-                <a class="days__link" href="podstrona5.html">O czym jest ten dzień?</a>
-            </section>
+            <div class="diary__grid">
+                <section class="days">
+                    <h3 class="days__header">Dzień 1</h3>
+                    <a class="days__link" href="podstrona1.html">O czym jest ten dzień ?</a>
+                    <p class="days__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ullam
+                        sunt, labore magnam laudantium nesciunt recusandae provident cum repellendus animi, incidunt ea
+                        ab consequuntur! Necessitatibus ipsam qui pariatur deserunt ad!</p>
+                </section>
+                <section class="days">
+                    <h3 class="days__header">Dzień 2</h3>
+                    <a class="days__link" href="podstrona2.html">O czym jest ten dzień?</a>
+                    <p class="days__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ullam
+                        sunt, labore magnam laudantium nesciunt recusandae provident cum repellendus animi, incidunt ea
+                        ab consequuntur! Necessitatibus ipsam qui pariatur deserunt ad!</p>
+                </section>
+                <section class="days">
+                    <h3 class="days__header">Dzień 3</h3>
+                    <a class="days__link" href="podstrona3.html">O czym jest ten dzień?</a>
+                    <p class="days__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ullam
+                        sunt, labore magnam laudantium nesciunt recusandae provident cum repellendus animi, incidunt ea
+                        ab consequuntur! Necessitatibus ipsam qui pariatur deserunt ad!</p>
+                </section>
+                <section class="days">
+                    <h3 class="days__header">Dzień 4</h3>
+                    <a class="days__link" href="podstrona4.html">O czym jest ten dzień?</a>
+                    <p class="days__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ullam
+                        sunt, labore magnam laudantium nesciunt recusandae provident cum repellendus animi, incidunt ea
+                        ab consequuntur! Necessitatibus ipsam qui pariatur deserunt ad!</p>
+                </section>
+                <section class="days">
+                    <h3 class="days__header">Dzień 5</h3>
+                    <a class="days__link" href="podstrona5.html">O czym jest ten dzień?</a>
+                    <p class="days__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, ullam
+                        sunt, labore magnam laudantium nesciunt recusandae provident cum repellendus animi, incidunt ea
+                        ab consequuntur! Necessitatibus ipsam qui pariatur deserunt ad!</p>
+                </section>
+            </div>
         </section>
 
     </main>
 
     <footer class="footer">
         <p class="footer__paragraph">&copy; Strona domowa Aleksandy Gardo.</p>
-       <a class="footer__link footer__link--top" href="#top"><span class="fas fa-arrow-alt-circle-up fa-lg" aria hidden="true"></span>Na górę</a>
+        <a class="footer__link footer__link--top" href="#top"><span class="fas fa-arrow-alt-circle-up fa-lg" aria
+                hidden="true"></span>Na górę</a>
     </footer>
     <script src="main.js"></script>
 </body>
