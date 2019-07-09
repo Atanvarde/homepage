@@ -1,27 +1,27 @@
 
-const name = "Ola"
-const city = "Poznaniu";
-console.log(`Mam na imię ${name} i mieszkam w ${city}`);
-const about = document.querySelector ('.about__paragraph--js');
-console.log(about);
-console.log(about.innerHTML);
+// const name = "Ola"
+// const city = "Poznaniu";
+// console.log(`Mam na imię ${name} i mieszkam w ${city}`);
+// const about = document.querySelector ('.about__paragraph--js');
+// console.log(about);
+// console.log(about.innerHTML);
 
-about.innerHTML = 'Pozdrawiam !!!';
+// about.innerHTML = 'Pozdrawiam !!!';
 
-let yourAge, yourName;
+// let yourAge, yourName;
 
-function hello (yourName, yourAge) {
-    console.log(`Witaj ${yourName} ! Masz ${yourAge} lat`);
+// function hello (yourName, yourAge) {
+//     console.log(`Witaj ${yourName} ! Masz ${yourAge} lat`);
     
-};
+// };
 
-hello("Karolina", "30");
+// hello("Karolina", "30");
 
-const welcome = (yourName, yourAge) => {
-    console.log(`Witaj ${yourName}! Masz ${yourAge} lat!`);
-}
+// const welcome = (yourName, yourAge) => {
+//     console.log(`Witaj ${yourName}! Masz ${yourAge} lat!`);
+// }
 
-welcome('Asia',15);
+// welcome('Asia',15);
 
 const navigationSwitcher = document.querySelector('.navigation__switcher--js');
 console.log(navigationSwitcher);
