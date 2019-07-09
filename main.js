@@ -12,7 +12,7 @@
 
 // function hello (yourName, yourAge) {
 //     console.log(`Witaj ${yourName} ! Masz ${yourAge} lat`);
-    
+
 // };
 
 // hello("Karolina", "30");
@@ -26,9 +26,15 @@
 const navigationSwitcher = document.querySelector('.navigation__switcher--js');
 console.log(navigationSwitcher);
 
-const navigationList = document.querySelector('.navigation__list--js'); 
+const navigationList = document.querySelector('.navigation__list--js');
 console.log(navigationList);
 
 navigationSwitcher.addEventListener('click', (e) => {
-navigationList.classList.toggle('navigation__list--visible');
+    navigationList.classList.toggle('navigation__list--visible');
+    if (navigationList.classList.contains('navigation__list--visible')) {
+        navigationSwitcher.innerHTML = '&#935;';
+    } else {
+        navigationSwitcher.innerHTML = '&#926;';
+    }
+
 });
