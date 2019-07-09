@@ -22,3 +22,13 @@ const welcome = (yourName, yourAge) => {
 }
 
 welcome('Asia',15);
+
+const navigationSwitcher = document.querySelector('.navigation__switcher--js');
+console.log(navigationSwitcher);
+
+const navigationList = document.querySelector('.navigation__list--js'); 
+console.log(navigationList);
+
+navigationSwitcher.addEventListener('click', (e) => {
+navigationList.classList.toggle('navigation__list--visible');
+});
