@@ -83,8 +83,20 @@ body {
     width: 10px;
     height: 10px;
     border-radius: 25%;
-    background: #34023e;
+    background: #FF6663;
     margin-right: 8px;
+    transform: rotate(45deg);
+    margin-bottom: 2px;
+}
+
+.days__header::after {
+    content: "";
+    display:inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 25%;
+    background: #FF6663;
+    margin-left: 8px;
     transform: rotate(45deg);
     margin-bottom: 2px;
 }
