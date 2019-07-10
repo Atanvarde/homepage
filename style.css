@@ -11,7 +11,7 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.site__header {
+.site-header {
     box-sizing: border-box;
     left: 0;
     padding: 16px;
