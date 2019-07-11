@@ -292,8 +292,8 @@ a:visited {
         right: 16px;
         top: 16px;
     }
-    .site__header {
-        min-height: 48px;
+    .site-header {
+        min-height: 44px;
     }
     .footer {
         padding: 0;
