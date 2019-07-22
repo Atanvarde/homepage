@@ -122,10 +122,6 @@ body {
     line-height: 24px;
 }
 
-span {
-    font-weight: bold;
-}
-
 .navigation {}
 
 .navigation__item {
