@@ -208,7 +208,7 @@ a:visited {
     width: 700px;
 }
 
-.footer__link--top {
+.footer__link {
     bottom: 15px;
     position: fixed;
     right: 15px;
